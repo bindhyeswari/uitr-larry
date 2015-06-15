@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>CSS3 selectors</title>
+    <style>
+
+
+
+
+        /* Pseudo elements */
+        /*
+            before after selection first-line first-letter
+        */
+
+        /* Pseudo Classes
+
+         nth-child, nth-of-type, target
+
+         */
+
+
+        #mydiv:target {
+            background-color: red;
+            transition: background-color 500ms ease;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<a href="#mydiv">Go to mydiv</a>
+
+    <div style="margin-top: 100em;">Div</div>
+    <p>Para</p>
+    <div>Div</div>
+    <span>Span</span>
+    <p>Para</p>
+    <div id="mydiv">My Div</div>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+
+        div {
+            font: 300 1em 'Helvetica Neue';
+            padding: 1em;
+            background-color: red;
+
+            animation: kf 500ms ease 5 alternate;
+            animation-fill-mode: forwards;
+        }
+
+        div:hover {
+            animation-play-state: paused;
+        }
+
+        @keyframes kf {
+            0% {
+                font-size: 4em;
+                background-color: #777;
+            }
+            100% {
+                font-size: 1em;
+                background-color: #eee;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+
+        Info
+
+    </div>
+</body>
+</html>
